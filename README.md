@@ -6,6 +6,6 @@
 - [shell官方网站](https://www.shell.com/)
 - [shell手册](http://shouce.jb51.net/shell/)
 ## [jekins](./jekins)
-- [jekins文档]（https://www.jenkins.io/zh/doc/）
+- [jekins文档](https://www.jenkins.io/zh/doc/)
 ## [docker](./docker)
 - [docker官网（doc和getStart）](https://www.docker.com/) 
