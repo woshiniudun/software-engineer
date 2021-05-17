@@ -14,9 +14,12 @@
 - [SpringCloud文档](https://docs.spring.io/spring-cloud/docs/current/reference/html/)
 - [Sp[ringFrameWork](https://docs.spring.io/spring-framework/docs/current/reference/html/)
 ## 分布式&大数据
-## 大数据
 ## 数据库
 ## 中间件
+## 有用的框架
+  - [jackson-json格式处理](./jackson)
+    - [github地址](https://github.com/FasterXML/jackson-docs) 
+  - [poi-excel处理]
 ## [Vue框架](./vue)
 - [vue官方网站](https://cn.vuejs.org/v2/api/)
 - [组件库](./vue/组件库）
@@ -30,7 +33,7 @@
 - [JQuery](./w3/jQUery)
 - [AJAX](./w3/AJAX)
 - [XML](./w3/XML)
-## [计算机基础]
+## [计算机基础](./计算机基础)
 - [编译原理]
 - [计算机网络]
 - [计算机组成原理]
