@@ -17,9 +17,12 @@
 ## 数据库
 ## 中间件
 ## 有用的框架
-  - [jackson-json格式处理](./jackson)
+  - [json格式处理](./jackson)
+    - jackson   
     - [github地址](https://github.com/FasterXML/jackson-docs) 
   - [poi-excel处理]
+  - [httpComponent](./httpComponent)
+    - [文档](http://hc.apache.org/)   
 ## [Vue框架](./vue)
 - [vue官方网站](https://cn.vuejs.org/v2/api/)
 - [组件库](./vue/组件库）
