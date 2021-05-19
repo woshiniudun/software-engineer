@@ -16,13 +16,17 @@
 ## 分布式&大数据
 ## 数据库
 ## 中间件
-## 有用的框架
+## 开源框架
   - [json格式处理](./jackson)
     - jackson   
     - [github地址](https://github.com/FasterXML/jackson-docs) 
   - [poi-excel处理]
   - [httpComponent](./httpComponent)
     - [文档](http://hc.apache.org/)   
+  - [docker](./docker)
+  - [jekins](./jekins)
+  - [maven](./maven)
+    - [maven文档]() 
 ## 有用的工具
   - [curl](./curl)
     - [curl文档](https://curl.se/)
