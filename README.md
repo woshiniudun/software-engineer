@@ -2,6 +2,7 @@
 ## 后端
 - [Spring全家桶](./spring)
 - [fastjson](./fastjson)
+- [jackson](./jackson)
 ## 前端
 - [npm](./npm)
   - [npm官方文档](https://docs.npmjs.com/) 
