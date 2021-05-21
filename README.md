@@ -32,6 +32,8 @@
 - [docker](./docker)
 - [kubernetes](./kubernetes)
 - [jekins](./jekins)
+- [netty](./netty)
+- [tomcat](./tomcat)
 
 ## 常用工具
 - [curl](./curl)
