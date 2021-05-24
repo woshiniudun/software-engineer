@@ -27,7 +27,7 @@
   - [AJAX](./w3/AJAX)
   - [XML](./w3/XML)
 ## 分布式&大数据
-- []
+- [并发编程](concurrent)
 ## 容器部署
 - [docker](./docker)
 - [kubernetes](./kubernetes)
