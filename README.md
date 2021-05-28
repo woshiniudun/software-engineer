@@ -34,6 +34,7 @@
 - [jekins](./jekins)
 - [netty](./netty)
 - [tomcat](./tomcat)
+- [linux](./linux)
 
 ## 常用工具
 - [curl](./curl)
