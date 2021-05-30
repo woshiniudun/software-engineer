@@ -4,4 +4,4 @@
 - 下载windows docker desktop
 - 安装wsl2
 - 内存不足时可以wsl --shutdown关闭 typer-V
-- 启动wsl
+- 启动wsl可以重启
