@@ -6,3 +6,9 @@ springmvc基于servlet API并且部署到servlet容器</br>
 ## 1.1 DispatcherServlet
 ### 1.1.1. 上下文层次结构
 ![image](https://user-images.githubusercontent.com/51777429/120431233-cd3b3c00-c3aa-11eb-8a4a-e14a2212e16d.png)
+### 1.1.4. Servlet Config
+用来配置filter、dispatcher、ApplicationContext等等</br>
+可以尝试不用springboot跑起一个helloword</br>
+### 1.1.5. Processing
+绑定各种resolver
+### 1.1.7. Interception
