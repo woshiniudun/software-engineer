@@ -44,9 +44,9 @@ HandlerExceptionResolver 有几类具体可以到文档里看</br>
 - @MatrixVariable
 - @RequestHeader("Accept-Encoding") @RequestHeader("Keep-Alive") 自动类型转换
 - @CookieValue("JSESSIONID") String cookie
-  @ModelAttribute("pet") Pet pet, BindingResult result
-
-
-
+- @ModelAttribute("pet") Pet pet, BindingResult result
+- Pet pet, BindingResult errors, SessionStatus status
+- @SessionAttribute User user @RequestAttribute Client client
+- 重定向return "redirect:files/{path}"
 
 
