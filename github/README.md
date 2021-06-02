@@ -14,7 +14,7 @@ git reset 信息摘要码
 ## 生成公钥
 用于https协议
 ```sh
-ssh-keygen -o
+ssh-keygen -t rsa -C "youremail"
 start C:\Users\Admin\.ssh
 ```
 ## 加速访问
