@@ -1,5 +1,5 @@
 - [正则表达式](./java/re)
 - [并发](./java/concurrent)
 - [IO](./java/io)
-- [集合](./java/collection)
+- [容器](./java/collection)
 - [虚拟机](./java/jvm)
