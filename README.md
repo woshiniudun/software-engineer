@@ -28,8 +28,9 @@
   - [JQuery](./w3/jQUery)
   - [AJAX](./w3/AJAX)
   - [XML](./w3/XML)
-## 分布式&大数据
+## 分布式&大数据&数据库
 - [并发编程](concurrent)
+- [redis](./redis)
 ## 容器部署
 - [docker](./docker)
 - [kubernetes](./kubernetes)
@@ -45,7 +46,7 @@
 - [加密解密](./encrypt&decrypt)
 - [github](./github)
 
-## [计算机基础](./计算机基础)
+## [计算机基础]
 - [编译原理](./编译原理)
 - [计算机网络](./计算机网络)
 - [计算机组成原理](./计算组成原理)
