@@ -4,4 +4,4 @@
 - [springboot中文索引](http://springboot.fun/)
 - [spring网站](https://spring.io/)
 # 学习记录
-- [SpringFramework](./spring/spring-framework)
+- [SpringFramework](spring-framework)
