@@ -44,9 +44,11 @@ HandlerExceptionResolver 有几类具体可以到文档里看</br>
 - @MatrixVariable
 - @RequestHeader("Accept-Encoding") @RequestHeader("Keep-Alive") 自动类型转换
 - @CookieValue("JSESSIONID") String cookie
-- @ModelAttribute("pet") Pet pet, BindingResult result
+- @ModelAttribute("pet") Pet pet, BindingResult result (用法参考)[https://blog.csdn.net/weixin_45007916/article/details/107880908] 前后端分离中应该是用不到的
 - Pet pet, BindingResult errors, SessionStatus status
 - @SessionAttribute User user @RequestAttribute Client client
 - 重定向return "redirect:files/{path}"
+- [sessionAttribute](https://blog.csdn.net/abc997995674/article/details/80462450)
+-  SessionStatus\BindingResult \HttpservletResponse
 
 
