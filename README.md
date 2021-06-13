@@ -12,6 +12,7 @@
 - [junit](./junit)
 - [swagger](./swagger)
 - [mybatis](./mybatis)
+- [JVM](JVM)
 ## 前端
 - [npm](./npm)
 - [node](./node)
