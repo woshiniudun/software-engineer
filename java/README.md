@@ -4,6 +4,7 @@
 - [容器](./java/collection)
 - [虚拟机](./java/jvm)
 - [java8 api](https://www.matools.com/api/java8)
+- [java新特性](java新特性)
 ## 软件设计的一些原则
 - 接口的解耦，对扩展开发，对修改关闭
 - 《23种设计模式》
