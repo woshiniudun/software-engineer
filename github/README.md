@@ -21,3 +21,7 @@ start C:\Users\Admin\.ssh
 start C:\Windows\System32\Drivers\etc</br>
 增加 ip github.com</br>
 ip从工具网站上查找</br>
+
+## git stash基本用法
+- [https://www.cnblogs.com/zndxall/archive/2018/09/04/9586088.html]
+- 
