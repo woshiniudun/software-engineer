@@ -13,6 +13,7 @@
 - [swagger](./swagger)
 - [mybatis](./mybatis)
 - [JVM](JVM)
+- [mysql](mysql)
 ## 前端
 - [npm](./npm)
 - [node](./node)
