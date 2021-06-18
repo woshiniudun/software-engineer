@@ -9,3 +9,14 @@ spring.application.name=MyCloudApp
 ```
 - @ConfigurationProperties(prefix = "user1")可以 user1.name=Tom 与 类的属性匹配，
 -   @DurationUnit  @DefaultValue @DataSizeUnit(DataUnit.MEGABYTES) /actuator/configprops
+## acutator用法
+- 依赖 <artifactId>spring-boot-starter-actuator</artifactId>
+- endpoints.health.enabled=true 
+- endpoints.info.enabled=false
+- endpoints.env.enabled=false
+- endpoints.trace.enabled=false
+- endpoints.dump.enabled=false
+- endpoints.mappings.enabled=false
+- endpoints.configprops.enabled=false
+- endpoints.autoconfig.enabled=false
+- endpoints.beans.enabled=false
