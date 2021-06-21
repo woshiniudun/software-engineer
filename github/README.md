@@ -24,4 +24,9 @@ ip从工具网站上查找</br>
 
 ## git stash基本用法
 - [https://www.cnblogs.com/zndxall/archive/2018/09/04/9586088.html]
-- 
+
+## git push的用法
+- [创建远程分支](https://blog.csdn.net/u012701023/article/details/79222731)
+## git merge
+- 当前分支合并其他分支内容,如果有冲突,就解决冲突再commit就ok
+- git merge --abort
