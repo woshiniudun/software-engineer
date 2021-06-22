@@ -9,4 +9,6 @@
 ## springboot启动的过程
 ## 启动配置数据源、redis的过程
 ## springboottest启动的过程
-1. 
+
+## 集成
+- 异步@EnableAsync就可以使用多线程，@Async加在线程任务的方法上
