@@ -6,3 +6,7 @@
 # 学习记录
 - [SpringFramework](spring-framework)
 - [springboot](springboot)
+## springboot启动的过程
+## 启动配置数据源、redis的过程
+## springboottest启动的过程
+1. 
