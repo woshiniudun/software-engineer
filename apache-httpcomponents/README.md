@@ -7,4 +7,4 @@
 
 ```
 ## bug
-- [ssl异常](https://blog.csdn.net/qq_38603819/article/details/87205463)
+- [http请求跳过证书验证](https://blog.csdn.net/qq_38603819/article/details/87205463)
