@@ -6,3 +6,9 @@
 
 ## mysql创建表
 - 根据时间戳更新是update的时候会自动更新,插入的时候不会更新
+## insert的基本用法
+- key重复的情况
+```
+on duplicate key update 
+  domain = values(domain),
+```
