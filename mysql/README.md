@@ -14,3 +14,5 @@ on duplicate key update
 ```
 ## mysql bug
 - Column count doesn't match value count at row 1 插入的字段和实际的值个数不匹配
+## mysql 函数
+- 获取月份
