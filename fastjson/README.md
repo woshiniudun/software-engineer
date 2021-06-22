@@ -6,3 +6,7 @@
 ```java
 List<Error>  errors = JSONObject.parseArray(jsonString, Error.class);
 ```
+- JSONArray -> 列表
+```
+List<CommitcountBO> commitcountBOs = reusltJsonArray.toJavaList(CommitcountBO.class);
+```
