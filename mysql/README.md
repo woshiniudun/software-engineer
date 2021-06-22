@@ -12,3 +12,5 @@
 on duplicate key update 
   domain = values(domain),
 ```
+## mysql bug
+- Column count doesn't match value count at row 1 插入的值和表的类型不匹配
