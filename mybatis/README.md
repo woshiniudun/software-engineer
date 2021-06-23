@@ -5,7 +5,7 @@
 ## mybatis基本用法
 - mybatis.configuration.map-underscore-to-camel-case=true 开启开关：表字段自动对应实体类里面的驼峰格式字段
 ```
-配置类里设置
+配置类里设置，而且要放在资源加载配置的后面，很神奇。
 @Bean(name="sqlSessionFactory")
     public SqlSessionFactory sqlSessionFactory(@Qualifier("dataSource") DataSource dataSource) throws Exception {
         SqlSessionFactoryBean sqlSessionFactoryBean = new SqlSessionFactoryBean();
