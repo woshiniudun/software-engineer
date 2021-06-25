@@ -13,3 +13,7 @@
 - TDD
 - 敏捷开发
 - 重构、代码整洁之道
+## 泛型
+- private <T> HSSFWorkbook generateExcel(List<T> datas,Class<T> t) {}
+## 反射
+- 获取对象所有字段上面的注解值[link](https://blog.csdn.net/weixin_41996632/article/details/104266179)
