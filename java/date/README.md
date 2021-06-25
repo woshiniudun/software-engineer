@@ -26,3 +26,4 @@ int day = cal.get(Calendar.DATE);
 int month = cal.get(Calendar.MONTH) + 1;
 int year = cal.get(Calendar.YEAR);
 ```
+- 获取今天
