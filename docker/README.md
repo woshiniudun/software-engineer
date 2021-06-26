@@ -8,4 +8,4 @@
 # 命令
 - docker exec -it container-id /bin/bash 可以进入容器
 - docker ps -a 可以查看容器
-
+- docker cp 用于容器与主机之间的数据拷贝。
