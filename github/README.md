@@ -31,4 +31,4 @@ ip从工具网站上查找</br>
 - 当前分支合并其他分支内容,如果有冲突,就解决冲突再commit就ok
 - git merge --abort
 ## git pull基本用法
-- [link](https://www.cnblogs.com/taohuaya/p/10761799.html)
+- [link](https://www.cnblogs.com/taohuaya/p/10761799.html) git pull origin master:master 冒号可以省略
