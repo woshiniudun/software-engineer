@@ -10,3 +10,9 @@ Map<String, List<CommitCountResultBO>> maps = commitCountResultBOs.stream()
 - collect：接收一个Collector实例，将流中元素收集成另外一个数据结构。
 - map：接收一个函数作为参数，该函数会被应用到每个元素上，并将其映射成一个新的元素。
 - 分页可以用skip和limit
+- 分组求和,这种不能生成对象
+```
+        Map<String, Integer> maps = commitDetailBOs
+                .stream()
+                .collect(Collectors.groupingBy(CommitDetailBO::getCommitVersion,Collectors.summingInt(CommitDetailBO::getCommitSize)));
+```
