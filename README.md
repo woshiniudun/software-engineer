@@ -48,7 +48,7 @@
 - [markdown](./markdown)
 - [加密解密](./encrypt&decrypt)
 - [github](./github)
-
+- [confluence](confluence)
 ## [计算机基础]
 - [编译原理](./编译原理)
 - [计算机网络](./计算机网络)
