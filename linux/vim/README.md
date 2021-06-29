@@ -1,4 +1,18 @@
 - [vim菜鸟教程](https://www.runoob.com/linux/linux-vim.html)
 - [vim官方网站](https://www.vim.org/)
 - [vim文档](http://vimcdoc.sourceforge.net/doc/help.html)
-# vim文档
+## 初步知识
+- vim初步
+  - 波浪线代表不存在，i插入模式，esc，：set showmode
+  - hjkl左下上右，x删除一个字符，dd删除一整行，j删除换行符
+- 移动
+- 做小改动
+- 选项设置
+- 使用语法高亮
+- 编辑多个文件
+- 分隔窗口
+- 使用GUI版本
+- 从崩溃中恢复
+- 小窍门
+## 高级 
+- 查找命令及模式
