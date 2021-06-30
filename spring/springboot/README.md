@@ -20,3 +20,5 @@ spring.application.name=MyCloudApp
 - endpoints.configprops.enabled=false
 - endpoints.autoconfig.enabled=false
 - endpoints.beans.enabled=false
+## application的所有属性
+- [大全](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#application-properties)
