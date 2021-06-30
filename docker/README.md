@@ -7,5 +7,6 @@
 - 启动wsl可以重启
 # 命令
 - docker exec -it container-id /bin/bash 可以进入容器
+- exit或者ctrl+p+Q
 - docker ps -a 可以查看容器
 - docker cp 用于容器与主机之间的数据拷贝。
