@@ -20,6 +20,14 @@
   </root> 
  </configuration>
 ```
+- 依赖
+```
+<dependency>
+    <groupId>ch.qos.logback</groupId>
+    <artifactId>logback-classic</artifactId>
+</dependency>
+```
+- 日志级别 logging.level.root = DEGUG
 ## 手册
 - appender、 layout 、logger是三个主要的类
 - 
