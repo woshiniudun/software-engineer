@@ -27,3 +27,4 @@ int month = cal.get(Calendar.MONTH) + 1;
 int year = cal.get(Calendar.YEAR);
 ```
 - 获取今天
+- SimpleDateFormat yyyy-MM-dd HH:mm:ss 注意大小写
