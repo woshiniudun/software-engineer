@@ -2,6 +2,7 @@
 - INSERT INTO 表名（字段名1，字段名2，…）VALUES（值1，值2，…）；
 - DELETE FROM 表名 [WHERE 条件表达式] 
 - insert into 表名 (字段名1) select 字段名1 from 表名
+- truncate table xxx 清空表数据，[删除多张表和一张表](https://blog.csdn.net/weixin_41380972/article/details/86627193)
 ## mysql的数据类型
 
 ## mysql创建表
