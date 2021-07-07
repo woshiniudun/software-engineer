@@ -2,7 +2,6 @@
 - [git book](https://git-scm.com/book/en/v2)
 # git命令
 ## git rebase
-### 简单操作
 ```
 git rebase -i commit_digest
 ```
@@ -32,3 +31,5 @@ ip从工具网站上查找</br>
 - git merge --abort
 ## git pull基本用法
 - [link](https://www.cnblogs.com/taohuaya/p/10761799.html) git pull origin master:master 冒号可以省略
+## 分支
+- 删除分支 git branch -d dev20181018 [删除本地和远程分支](https://www.cnblogs.com/liyong888/p/9822410.html)
