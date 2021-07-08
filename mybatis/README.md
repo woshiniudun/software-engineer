@@ -15,3 +15,6 @@
     }
 ```
 ## mybatis原理
+- sql标签是用来复用的语句
+## mybatis异常
+- Invalid bound statement
