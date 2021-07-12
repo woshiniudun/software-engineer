@@ -22,3 +22,5 @@ spring.application.name=MyCloudApp
 - endpoints.beans.enabled=false
 ## application的所有属性
 - [大全](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#application-properties)
+## springboot的启动过程
+- [启动过程](https://blog.wangqi.love/articles/Spring/SpringBoot%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B.html)
