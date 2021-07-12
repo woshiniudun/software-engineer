@@ -22,3 +22,4 @@
 - [aop的自调用问题](https://blog.csdn.net/z69183787/article/details/81252669)
 - 如果要代理的目标对象至少实现了一个接口,使用java的动态代理
 - [@configurable和@EnableSpringConfigured](https://www.jianshu.com/p/2f679ca07855) 没有用过
+- [大致的原理](https://blog.csdn.net/xc123_java/article/details/90448446)
