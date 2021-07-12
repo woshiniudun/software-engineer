@@ -24,3 +24,8 @@
 - [@configurable和@EnableSpringConfigured](https://www.jianshu.com/p/2f679ca07855) 没有用过
 - [大致的原理](https://blog.csdn.net/xc123_java/article/details/90448446)
 - [另一篇源码解析](https://blog.csdn.net/h294229025/article/details/100110636)
+##  spring源码分析 
+- [58篇](https://blog.csdn.net/qq_26000415/category_9271293.html)
+- [@configuration注解的分析](https://blog.csdn.net/Koupoo/article/details/110304250)
+- [30+篇](https://blog.csdn.net/qq_36882793/article/details/106745317)
+- [aop源码解析](https://blog.csdn.net/qq_36882793/article/details/106745317)
