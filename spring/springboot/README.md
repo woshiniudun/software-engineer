@@ -11,16 +11,9 @@ spring.application.name=MyCloudApp
 -   @DurationUnit  @DefaultValue @DataSizeUnit(DataUnit.MEGABYTES) /actuator/configprops
 ## acutator用法
 - 依赖 <artifactId>spring-boot-starter-actuator</artifactId>
-- endpoints.health.enabled=true 
-- endpoints.info.enabled=false
-- endpoints.env.enabled=false
-- endpoints.trace.enabled=false
-- endpoints.dump.enabled=false
-- endpoints.mappings.enabled=false
-- endpoints.configprops.enabled=false
-- endpoints.autoconfig.enabled=false
-- endpoints.beans.enabled=false
 ## application的所有属性
 - [大全](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#application-properties)
 ## springboot的启动过程
 - [启动过程](https://blog.wangqi.love/articles/Spring/SpringBoot%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B.html)
+- - [springboot启动]
+##  springboot源码分析 [58篇](https://blog.csdn.net/qq_26000415/category_9271293.html)
