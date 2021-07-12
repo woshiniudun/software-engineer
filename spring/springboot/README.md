@@ -15,6 +15,5 @@ spring.application.name=MyCloudApp
 - [大全](https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html#application-properties)
 ## springboot的启动过程
 - [启动过程](https://blog.wangqi.love/articles/Spring/SpringBoot%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B.html)
-- 
-##  springboot源码分析 [58篇](https://blog.csdn.net/qq_26000415/category_9271293.html)
-- [@configuration注解的分析](https://blog.csdn.net/Koupoo/article/details/110304250)
+- [读取配置类](https://blog.csdn.net/Koupoo/article/details/110304250)
+- @EnableAutoConfiguration可以帮助SpringBoot应用将所有符合条件的@Configuration配置都加载到当前SpringBoot创建并使用的IoC容器。
