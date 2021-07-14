@@ -18,3 +18,7 @@
 - sql标签是用来复用的语句
 ## mybatis异常
 - Invalid bound statement
+## 源码分析
+- [Mybatis源码详细分析（最新最全）-csdn](https://blog.csdn.net/qq_34295193/article/details/111193065)
+- [statement和configuration的源码分析](https://blog.csdn.net/ShewMi/article/details/80242339)
+- [executor的源码分析](https://blog.csdn.net/ShewMi/article/details/80283094)
