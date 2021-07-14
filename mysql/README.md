@@ -28,4 +28,5 @@ CREATE TABLE IF NOT EXISTS `runoob_tbl`(
    `submission_date` DATE,
    PRIMARY KEY ( `runoob_id` )
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
+ALTER  table dwr_scm_pln_item_demand_f_t add unique index  unique_index (lv1_prod_rd_team_cn_name, hw_contract_num, item_code, prod_code, period_date) USING BTREE;
 ```
