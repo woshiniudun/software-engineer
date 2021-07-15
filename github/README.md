@@ -33,3 +33,5 @@ ip从工具网站上查找</br>
 - [link](https://www.cnblogs.com/taohuaya/p/10761799.html) git pull origin master:master 冒号可以省略
 ## 分支
 - 删除分支 git branch -d dev20181018 [删除本地和远程分支](https://www.cnblogs.com/liyong888/p/9822410.html)
+- git push origin --delete oldBranchName
+- git branch --set-upstream-to origin/newBranchName
