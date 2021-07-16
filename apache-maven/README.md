@@ -3,3 +3,4 @@
 - [pom文件](https://blog.csdn.net/weixin_38569499/article/details/91456988)
 ## bug
 - Error creating assembly archive pkg: You must set at least one file
+- jdk问题，找不到application，index失效等等问题
