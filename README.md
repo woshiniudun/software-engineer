@@ -51,6 +51,7 @@
 - [github](./github)
 - [confluence](confluence)
 - [postman](postman)
+- [idea](idea)
 ## [计算机基础]
 - [编译原理](./编译原理)
 - [计算机网络](./计算机网络)
