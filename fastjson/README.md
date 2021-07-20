@@ -10,3 +10,7 @@ List<Error>  errors = JSONObject.parseArray(jsonString, Error.class);
 ```
 List<CommitcountBO> commitcountBOs = reusltJsonArray.toJavaList(CommitcountBO.class);
 ```
+- 列表 -> JsonArray 
+```
+JSONArray array= JSONArray.parseArray(JSON.toJSONString(list))；
+```
