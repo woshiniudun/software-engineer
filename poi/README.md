@@ -65,10 +65,19 @@
         }
     }
     
-        public static String toTitle(String name) {
-        char[] chars = name.toCharArray();
-        chars[0] -= 32;
-        return String.valueOf(chars);
+    public static String toTitle(String name) {
+    char[] chars = name.toCharArray();
+    chars[0] -= 32;
+    return String.valueOf(chars);
 
     }
-  ```
+```
+```
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+@Documented
+public @interface Column {
+    String value() default "";
+
+}
+```
