@@ -1,6 +1,8 @@
 ## 文档
 - [github wiki地址](https://github.com/alibaba/fastjson/wiki)
 - [Getting Started](https://github.com/alibaba/fastjson/wiki/Samples-DataBind)
+## 注解
+- @JSONFiled(name 可以设为前端的字段名，format = "yyyy-MM-dd HH:mm:ss")
 ## 类转化
 - 字符串 -> 列表
 ```java
