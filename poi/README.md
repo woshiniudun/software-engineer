@@ -81,3 +81,52 @@ public @interface Column {
 
 }
 ```
+
+## 导入的模板代码
+```
+public static <T> List<T> generateDataFromExcel(Sheet sheet, Class<T> clazz) throws InvocationTargetException, IllegalAccessException, NoSuchMethodException, InstantiationException {
+
+        List<Method> methods = new ArrayList<>();
+        Field[] fields = clazz.getDeclaredFields();
+        for (Field field : fields) {
+            if (field.isAnnotationPresent(Column.class)) {
+                String methodName = String.format("set%s",toTitle(field.getName()));
+                Method method = clazz.getMethod(methodName, field.getType());
+                methods.add(method);
+            }
+        }
+        List<T> datas = new ArrayList<>();
+        for (int rowCount = 1; rowCount < sheet.getLastRowNum(); rowCount++) {
+            Row row = sheet.getRow(rowCount);
+            if (row == null) {
+                break;
+            }
+            T t = clazz.newInstance();
+            for (int i=0; i< methods.size(); i++) {
+                Method method = methods.get(i);
+                Type type = method.getParameterTypes()[0];
+                Cell cell = row.getCell(i);
+                if (cell == null) {
+                    continue;
+                }
+                if (type.getTypeName().equals("java.lang.Integer")) {
+                    Double value =  cell.getNumericCellValue();
+                    method.invoke(t, value);
+                } else if (type.getTypeName().equals("java.lang.String")) {
+                    String value =  cell.getStringCellValue();
+                    method.invoke(t,value);
+                } else if (type.getTypeName().equals("java.util.Date")) {
+                    Date value =  cell.getDateCellValue();
+                    method.invoke(t,value);
+                } else if (type.getTypeName().equals("java.lang.Double")) {
+                    Double value =  cell.getNumericCellValue();
+                    method.invoke(t,value);
+                } else {
+                    throw new TypeConstraintException("类型错误");
+                }
+           }
+            datas.add(t);
+        }
+        return datas;
+    }
+ ```
