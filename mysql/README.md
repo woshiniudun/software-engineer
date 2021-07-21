@@ -19,6 +19,7 @@ on duplicate key update
 ## mysql 函数
 - 获取月份 month
 - concat
+- DATE_FORMAT(end_time, 'yyyy-MM-dd)取出日期字段的时候设置一下格式 [格式](https://blog.csdn.net/blinking_star/article/details/72771285)
 ## 建表
 ```
 CREATE TABLE IF NOT EXISTS `runoob_tbl`(
