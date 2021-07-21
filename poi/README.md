@@ -1,5 +1,13 @@
 - [API 文档](http://poi.apache.org/apidocs/5.0/)
+- [poi api](http://poi.apache.org/apidocs/dev/overview-summary.html)
 - [example](http://poi.apache.org/components/spreadsheet/examples.html)
+## 设置excel的表头、数据限制、宽度等
+```
+CellStyle style = excel.createCellStyle();
+style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
+style.setFillForegroundColor(HSSFColor.HSSFColorPredefined.TURQUOISE.getIndex());
+row.createCell(i).setCellValue(headers.get(i));
+```
 ## 导出的模板代码
 ```
     private <T> HSSFWorkbook generateExcel(List<T> datas,Class<T> t) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
