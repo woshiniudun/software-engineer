@@ -18,7 +18,7 @@ on duplicate key update
 - invalid use of null [解决办法](https://blog.csdn.net/lxw1844912514/article/details/100028222)
 ## mysql 函数
 - 获取月份 month
-- concat
+- [concat](https://www.cnblogs.com/aiyr/p/6830593.html)
 - DATE_FORMAT(end_time, 'yyyy-MM-dd)取出日期字段的时候设置一下格式 [格式](https://blog.csdn.net/blinking_star/article/details/72771285)
 - 获取当年的第一天
 ## mysql 语法
