@@ -20,7 +20,7 @@ on duplicate key update
 - 获取月份 month
 - [concat](https://www.cnblogs.com/aiyr/p/6830593.html)
 - DATE_FORMAT(end_time, 'yyyy-MM-dd)取出日期字段的时候设置一下格式 [格式](https://blog.csdn.net/blinking_star/article/details/72771285)
-- 获取当年的第一天
+- [获取当年的第一天、最后一天](https://www.cnblogs.com/1996swg/p/9254492.html)
 ## mysql 语法
 - [大小写的替换](https://www.cnblogs.com/jpfss/p/10254923.html)
 - [union和union all的区别](https://www.cnblogs.com/xiangshu/articles/2054447.html)
