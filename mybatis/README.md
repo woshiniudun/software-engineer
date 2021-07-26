@@ -14,6 +14,7 @@
         return sqlSessionFactoryBean.getObject();
     }
 ```
+- [分支选择](https://www.cnblogs.com/xiximayou/p/12221581.html)
 ## mybatis原理
 - sql标签是用来复用的语句
 ## mybatis异常
