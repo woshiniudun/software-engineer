@@ -23,6 +23,7 @@ on duplicate key update
 - 获取当年的第一天
 ## mysql 语法
 - [大小写的替换](https://www.cnblogs.com/jpfss/p/10254923.html)
+- [union和union all的区别](https://www.cnblogs.com/xiangshu/articles/2054447.html)
 ## 建表
 ```
 CREATE TABLE IF NOT EXISTS `runoob_tbl`(
