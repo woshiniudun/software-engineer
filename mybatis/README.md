@@ -1,6 +1,9 @@
 - [分页插件PageHelper](https://pagehelper.github.io/docs/)
 - [mybatis文档](https://mybatis.org/mybatis-3/zh/index.html)
 - [pageHelper.md](pageHelper.md)
+## 常见bug
+- 首先是字段的驼峰和下划线格式注意
+- 其次是test里面的语言是java语言的形式
 ## PageHelper原理
 ## mybatis基本用法
 - mybatis.configuration.map-underscore-to-camel-case=true 开启开关：表字段自动对应实体类里面的驼峰格式字段
@@ -23,3 +26,4 @@
 - [Mybatis源码详细分析（最新最全）-csdn](https://blog.csdn.net/qq_34295193/article/details/111193065)
 - [statement和configuration的源码分析](https://blog.csdn.net/ShewMi/article/details/80242339)
 - [executor的源码分析](https://blog.csdn.net/ShewMi/article/details/80283094)
+##
