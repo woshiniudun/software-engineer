@@ -1,3 +1,5 @@
+## bug
+- mysql的语法和java不一样，判断非空用！=null不行，得用is not null
 ## 增删改查基本用法 [博客](https://www.cnblogs.com/heyangblog/p/7624645.html)
 - INSERT INTO 表名（字段名1，字段名2，…）VALUES（值1，值2，…）；
 - DELETE FROM 表名 [WHERE 条件表达式] 
