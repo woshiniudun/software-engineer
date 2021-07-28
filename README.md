@@ -17,6 +17,7 @@
 - [logger](logger)
 - [quartz](quartz)
 - [lombok](lombok)
+- [redis](redis)
 ## 前端
 - [npm](./npm)
 - [node](./node)
