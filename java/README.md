@@ -7,6 +7,8 @@
 - [java新特性](java新特性)
 - [Date](date)
 - [String](string)
+## 数据结构相互转换
+- [list set](https://blog.csdn.net/u014532901/article/details/78820124)
 ## 软件设计的一些原则
 - 接口的解耦，对扩展开发，对修改关闭
 - 《23种设计模式》
