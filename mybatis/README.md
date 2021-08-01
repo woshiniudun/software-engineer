@@ -4,6 +4,7 @@
 ## 常见bug
 - 首先是字段的驼峰和下划线格式注意
 - 其次是test里面的语言是java语言的形式
+- uniq键里面有null
 ## PageHelper原理
 ## mybatis基本用法
 - mybatis.configuration.map-underscore-to-camel-case=true 开启开关：表字段自动对应实体类里面的驼峰格式字段
