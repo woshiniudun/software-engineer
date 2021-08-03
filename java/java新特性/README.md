@@ -16,3 +16,4 @@ Map<String, List<CommitCountResultBO>> maps = commitCountResultBOs.stream()
                 .stream()
                 .collect(Collectors.groupingBy(CommitDetailBO::getCommitVersion,Collectors.summingInt(CommitDetailBO::getCommitSize)));
 ```
+- collect pojo成为一个list
