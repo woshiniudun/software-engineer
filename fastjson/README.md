@@ -16,3 +16,7 @@ List<CommitcountBO> commitcountBOs = reusltJsonArray.toJavaList(CommitcountBO.cl
 ```
 JSONArray array= JSONArray.parseArray(JSON.toJSONString(list))；
 ```
+- jsonobject 变 pojo
+```
+User user = JSON.toJavaObject(userJSONObec, User.class);
+```
