@@ -8,6 +8,7 @@ style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
 style.setFillForegroundColor(HSSFColor.HSSFColorPredefined.TURQUOISE.getIndex());
 row.createCell(i).setCellValue(headers.get(i));
 ```
+- 数据有效性 https://www.cnblogs.com/volare/p/3980127.html  https://blog.csdn.net/qq_31964019/article/details/104657267
 ## 导出的模板代码
 ```
     private <T> HSSFWorkbook generateExcel(List<T> datas,Class<T> t) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
