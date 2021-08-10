@@ -28,3 +28,4 @@ int year = cal.get(Calendar.YEAR);
 ```
 - 获取今天
 - SimpleDateFormat yyyy-MM-dd HH:mm:ss 注意大小写
+- 获取日期的年份
